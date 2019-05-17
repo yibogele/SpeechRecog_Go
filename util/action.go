@@ -71,8 +71,7 @@ func getActionParamTrans(action, target string) ActionParam {
 		switch target {
 		case "公测":
 			return ActionParam{action, "公厕"}
-		case "好雷婷子":
-			return ActionParam{action, "好嘞亭子"}
+
 		}
 	}
 	return ActionParam{action, target}
